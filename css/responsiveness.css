@@ -1,0 +1,195 @@
+#menu-btn{
+    visibility: hidden;
+    width: 0px;
+}
+
+#head-indicator{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+#menu-btn{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1324px){
+    #top-bar > a:nth-child(7),
+    #top-bar > a:nth-child(8){
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+    #top-bar > a,
+    #navigation a{
+        transform: scale(.9);
+    }
+
+    #navigation a.btn{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    #top-bar, #link-holder li{
+        display: none;
+    }
+
+    #menu-btn{
+        visibility: visible;
+        width: auto;
+    }
+
+    #side-bar{
+        display: none;
+    }
+
+    #main-body{
+        width: 100%;
+    }
+
+    
+    #main-body .container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    #top{
+        display: block;
+        margin-top: 40px;
+    }
+
+    #indicator-holder{
+        width: 500px;
+        transform: scale(.9px);
+    }
+
+    #indicator-holder h2{
+        width: 90%;
+    }
+
+    #top > *{
+        width: 100%
+    }
+
+    #features{
+        background: white;
+        padding: 40px 25px;
+    }
+
+    #features-holder{
+        width: 100%;
+    }
+
+    #indicator-holder h2{
+        font-size: 18px;
+    }
+
+    .testimony{
+        padding-bottom: 25px;;
+        width: 95%;
+    }
+
+    .testimony > div {
+        width: 100%;
+    }
+
+    .testimony > div > div h2{
+        font-size: 18px;
+    }
+
+    .testimony > div p{
+        font-size: 12px;
+    }
+
+    .tab-header{
+        width: 100%;
+    }
+
+    table{
+        width: 90%;
+        transform: scaleX(.8);
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .tab-header a{
+        display: block; 
+        width: 100%;
+        margin: 10px auto;
+        border-bottom: 1px solid rgb(202, 202, 202);
+    }
+    #detail-content #detail-img{
+        width: 100%;
+    }
+
+    #to-top{
+        transform: scale(.8);
+    }
+    #splash-screen-input-holder input{
+        width: 200px;
+    }
+
+    #to-top{
+        bottom: 350px;
+    }
+    #signup{
+        width: 70%;
+    }
+    #education-institute-section h2{
+        font-size: 28px;
+    }
+    #courses > div{
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width: 760px){
+    
+    #get-started{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #get-started > div{
+        transform: scale(.8);
+        min-width: 100%;
+        margin: auto;
+    }
+    #get-started h1{
+        font-size: 40px;
+    }
+    #signup{
+        width: 90%;
+    }
+    #splash-screen input{
+        position: relative;
+        left: -10px;
+    }
+    #education-institute-section{
+        padding: 0px;
+    }
+
+    #main-body .container{
+        width: 95%;
+    }
+
+    #profile-content > div{
+        font-size: 10px !important;
+    }
+    #profile-section a.btn{
+        transform: scale(.8);
+    }
+}
+
+@media screen and (max-width: 400px){
+    #get-started > div{
+    }
+
+    #get-started h1{
+        font-size: 32px;
+    }
+}

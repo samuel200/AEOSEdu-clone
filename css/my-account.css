@@ -1,0 +1,120 @@
+main{
+    background: rgb(235, 235, 235);
+    padding: 30px;
+    /* height: 90vh; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#side-bar{
+    width: 22vw;
+    height: 100%;
+}
+
+.container{
+    width: 90%;
+}
+
+#profile-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    /* text-align: center; */
+}
+
+#profile-holder img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom:  20px;
+}
+
+#profile-holder a{
+    text-decoration: underline;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+#links a{
+    display: block;
+    font-size: 12px;
+    color: rgb(65, 65, 65);
+    font-weight: 700;
+    padding: 20px;
+}
+
+#links a:hover{
+    color: rgb(22, 22, 22);
+}
+
+#links i{
+    font-size: 22px;
+}
+
+#links span{
+    padding-left: 15px;
+    position: relative;
+    bottom: 5px;
+}
+
+#main-body{
+    min-width: 75vw;
+    min-height: 80vh;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+#main-body > div{
+    padding: 35px;
+}
+
+#application-content{
+    min-height: 100%;
+}
+
+#no-content{
+    padding: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(172, 172, 172);
+}
+
+#main-body #profile-content div{
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+#profile-form{
+    height: 80vh
+}
+
+input{
+    border: 1px solid rgb(179, 179, 179) !important;
+    height: 40px !important;
+}
+
+#profile-form i{
+    padding-right: 40px;
+}
+
+#profile-form input[type="submit"]{
+    width: 100px !important;
+    border: none !important;
+    border-radius: 10px;
+}
+
+#profile-holder > img{
+    width: 90px !important;
+}
+
+@media screen and (max-width: 960px){
+    main{
+        padding: 0px;
+    }
+}

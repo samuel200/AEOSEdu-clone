@@ -1,0 +1,216 @@
+#breafing{
+    padding: 40px 0px;
+    background-color: #F1F5FA;
+}
+
+#breafing img{
+    height: 60px;
+    width: 80px;
+}
+
+#breafing h2{
+    font-size: 22px;
+}
+
+#breafing p{
+    font-size: 14px;
+}
+
+#breafing > div{
+    width: 90%;
+}
+
+#breafing > div > div{
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+#breafing > div > div > div{
+    background: white;
+    height: 280px;
+    padding: 10px;
+}
+
+#darken{
+    background-color: #253241 !important;
+    color: white;
+}
+
+
+#features{
+    background-image: linear-gradient(to right, white 40%, transparent), url(../img/ft-bg.jpg);
+    background-size: cover;
+    padding: 40px 60px;
+}
+
+#features-holder{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.small{
+    font-size: .8em;
+}
+
+#get-started{
+    width: 90%;
+    margin-top: 60px;
+    position: relative;
+    bottom: -60px;
+}
+
+#get-started h1{
+    color: #646E7A;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+#get-started h2{
+    font-size: 14px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.detail-card{
+    width: 23% !important;
+    height: 180px;
+    background: #F1F5FA; 
+    margin: 0px 1%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#get-registered{
+    padding: 35px;
+    padding-top: 60px;
+    margin-bottom: 0px;
+}
+
+#get-registered h2{
+    font-size: 28px;
+}
+
+#get-registered p{
+    color: grey;
+    font-size: 14px;
+}
+
+#get-registered .button-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.button-side i{
+    margin-right: 20px;
+}
+
+.button-side button{
+    height: 70px !important;
+}
+
+marquee img{
+    height: 80px;
+    margin-right: 40px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.modal-content{
+    border-top: 1px solid rgb(184, 184, 184);
+}
+
+#signup{
+    text-align: center;
+    border-radius: 10px;
+}
+
+#signup input{
+    width: 80%;
+}
+
+#signup input[type="email"],
+#signup input[type="password"],
+#signup input[type="text"],
+#signup input[type="tel"]{
+    border: 1px solid rgb(161, 161, 161);
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.modal-header p{
+    padding-right: 20px;
+}
+
+form.active{
+    display: block !important;
+}
+
+#signup{
+    width: 600px;
+    overflow-x: hidden;
+}
+
+#signup form{
+    display: none;
+}
+
+.swap-btn:hover{
+    cursor: pointer;
+}
+
+.drop{
+    border-radius: 5px;
+    width: 90%;
+    height: 80px;
+    overflow-y: hidden;
+    transition: all .5s ease;
+    padding: 20px;
+    color: #253241;
+    margin-bottom: 20px;
+}
+
+.down{
+    height: 200px !important;
+}
+
+.testimony{
+    width: 90%;
+}
+
+.testimony h2{
+    font-size: 32px;
+}
+
+.drop h2{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.drop:hover{
+    cursor: pointer;
+}
+
+
+.testimony-content{
+    font-size: 14px;
+    background-image: url(../img/testimony-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px 25px;
+}
+
+.consumer-initials p b{
+    font-weight: 700 !important;
+}
+
+.slick-arrow.slick-disabled { 
+    display: none !important;
+}

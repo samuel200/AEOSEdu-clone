@@ -1,0 +1,65 @@
+/* Message us Form Styling Start  */
+
+#message-us-section,
+#contact-card-holder{
+    width: 90%;  
+     
+}
+#message-us-section{
+    padding-bottom: 50px; 
+}
+
+#message-us-section h2{
+    color: #253241;
+    font-size: 32px;
+}
+
+#message-us-section input{
+    border: 1px solid gray;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#message-us-section button{
+    background: #337AB7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+#message-us-section button:hover{
+    background: #2a6192;
+    cursor: pointer;
+}
+
+/* Message us Form Styling End */
+
+
+/* Contact Card Styling Start */
+
+#contact-card-holder{
+    padding: 90px 0px 20px 0px;
+}
+
+.contact-card{
+    background: #F0F0F0;
+    height: 230px;
+    transform: scaleX(.9);
+    margin-bottom: 80px;
+}
+
+.contact-logo{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+}
+
+/* Contact Card Styling End */

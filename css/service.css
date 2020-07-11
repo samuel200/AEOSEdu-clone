@@ -1,0 +1,29 @@
+#service-card-holder{
+    border-top: 1px solid rgb(211, 211, 211);
+    padding: 20px 0px;
+    width: 90%;
+    margin: auto;
+}
+
+#service-holder h3{
+    font-size: 21px;
+    font-weight: 700;
+    color: #253241;
+}
+
+.service-card{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card p{
+    font-size: 14px;
+}
+
+#service-holder{
+    margin-top: 50px;
+}

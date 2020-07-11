@@ -1,0 +1,116 @@
+#university-details{
+    width: 85%;
+    padding: 60px 0px;
+}
+
+#university-details h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#university-details span{
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+#university-details #stamp-holder img{
+    width: 14px;
+    margin-left: 10px;
+}
+
+.b-left{
+    border-left: 1px solid rgb(165, 164, 164);
+}
+
+#detail-content,
+#stamp-holder{
+    margin-top: 30px;
+}
+
+#detail-content > div:nth-child(1){
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+#detail-content > div:nth-child(1) img{
+    width: 90%;
+    transition: .5s ease transform;
+}
+
+#detail-content > div:nth-child(1) img:hover{
+    transform: scaleX(1.1);
+}
+
+#apply-button-holder{
+    text-align: center;
+    width: 70%;
+}
+
+#apply-button-holder a.btn{
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    height: 40px;
+}
+
+.modal-input{
+    border: 1px solid grey !important;
+    border-radius: 8px !important;
+    padding-left: 15px !important;
+}
+
+
+.tab-header{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 35px;
+    color: grey;
+    border-bottom: 1px solid grey;
+    width: 80%;
+}
+
+.tab-header a{
+    padding: 10px 25px;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    transition: all .5s;
+}
+
+.tab-content{
+    /* width: 80%; */
+    padding-top: 25px;
+    display: none;
+}
+
+a.active{
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid grey;
+    border-bottom: 4px solid red;
+
+}
+
+#more:hover{
+    cursor: pointer;
+}
+
+#courses #table{
+    min-width: 900px;
+}
+
+#courses .table-row{
+    font-size: 14px !important;
+    font-family: Montserrat;
+    color: gray;
+    font-weight: normal;
+}

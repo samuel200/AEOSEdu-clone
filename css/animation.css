@@ -1,0 +1,44 @@
+.menu-trigger > .sub-menue,
+.menu-trigger > a > i{
+    transition: all .2s ease;
+}
+
+.menu-trigger:hover > a > i{
+    transform-origin: 50%;
+    transform: rotateZ(-180deg);
+}
+
+.menu-trigger:hover > .sub-menue{
+    z-index: 20;
+    display: block;
+    z-index: 20;
+    animation: comeup .5s forwards ease;
+}
+
+@keyframes rollforwards{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes rollbackwards{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-360deg);
+    }
+}
+
+@keyframes comeup{
+    from{
+        top: 90px;
+        opacity: 0;
+    }to{
+        top: 70px;
+        opacity: 1;
+    }
+}
